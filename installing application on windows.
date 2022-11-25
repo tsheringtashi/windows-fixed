@@ -1,0 +1,12 @@
+After much finding online for the solution, I could resolve with the following steps:
+
+    install conda from (https://www.anaconda.com/products/distribution)
+    open up conda prompt
+    create a folder (mkdir rasafolder)
+    cd rasafolder
+    From here you can type the script as below:
+    conda update conda
+    python3 -m venv virtual_name
+    .\virtual_name\Scripts\activate
+    conda install ujson
+    pip install rasa
